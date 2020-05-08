@@ -1,10 +1,10 @@
-" HANABI
-" velo.x
+"HANABI"
+"velo.x
 
 highlight clear
 
 if exists('syntax_on')
-	syntax reset
+    syntax reset
 endif
 
 
@@ -14,23 +14,21 @@ let g:colors_name = "hanabi"
 
 let g:midori_italics = get(g:, 'midori_italics', 0)
 
-" Colors
-let s:gray1     = ['#1b202a', 235]
-let s:gray2     = ['#232936', 240]
-let s:gray3     = ['#323c4d', 245]
-let s:gray4     = ['#51617d', 59]
-let s:gray5     = ['#9aa7bd', 251]
-let s:orange    = ['#a1561c', 130] " '#5b618f' '#8a391b' '#b15e7c'
-let s:green     = ['#709460', 108] "'#44693d' '#8d89ca'
-let s:murasaki  = ['#7C7FAB', 97] "'#8866BC' '#7c6992' '#595478' '#b5a262' 
-let s:blue      = ['#608cc3', 68]
-let s:pink      = ['#a182b2', 174]  " '#535486' '#878CB4' '#7c6992'
-let s:cyan      = ['#5da3b2', 159] " '#7c6992' '#56adb7'
-let s:yellow    = ['#b5a262', 221] "'#a86f5f'
-let s:midori    = ['#a7a2c3', 151] " '#3e5824''#b07c83'
-let s:comcolor  = ['#7594b3', 152]" '#566C73' '#6a8e89'
-
-
+" Color Palette
+let s:gray1     = [ '#1b202a', 233 ]
+let s:gray2     = [ '#232936', 238 ]
+let s:gray3     = [ '#323c4d', 240 ]
+let s:gray4     = [ '#51617d', 60  ]
+let s:gray5     = [ '#9aa7bd', 188 ]
+let s:orange    = [ '#a1561c', 130 ] " '#5b618f' '#8a391b' '#b15e7c'
+let s:green     = [ '#709460', 108 ] "'#44693d' '#8d89ca'
+let s:murasaki  = [ '#7C7FAB', 104 ] "'#8866BC' '#7c6992' '#595478' '#b5a262' 
+let s:blue      = [ '#608cc3', 110 ]
+let s:pink      = [ '#a182b2', 139 ]  " '#535486' '#878CB4''#7c6992'
+let s:cyan      = [ '#5da3b2', 109 ] " '#7c6992' '#56adb7'
+let s:yellow    = [ '#b5a262', 179 ] "'#a86f5f'
+let s:midori    = [ '#a7a2c3', 146 ] " '#3e5824''#b07c83'
+let s:comcolor  = [ '#7594b3', 59  ] " '#566C73' '#6a8e89'
 
 
 function! CH(group, fg, bg, attr)
@@ -52,7 +50,11 @@ function! CH(group, fg, bg, attr)
     endif
 endfun
 
-
+if has('gui_running')
+	call CH('Normal',               s:gray5,      s:gray1,        'none')
+else
+ 	exe 'hi Normal term=none cterm=none gui=none'
+endif
 
 
 " Editor Highlights
@@ -76,7 +78,7 @@ call CH('MatchParen',           s:gray2,      s:midori,       'bold')
 call CH('ModeMsg',              s:green,      '',             '')
 call CH('MoreMsg',              s:green,      '',             '')
 call CH('NonText',              s:gray4,      '',             '')
-call CH('Normal',               s:gray5,      s:gray1,        'none')
+" call CH('Normal',               s:gray5,      s:gray1,        'none')
 call CH('Pmenu',                s:gray5,      s:gray3,        '')
 call CH('PmenuSel',             s:gray2,      s:blue,         '')
 call CH('PmenuSbar',            s:gray3,      s:gray4,        '')
@@ -195,5 +197,7 @@ call CH('GitGutterChangeDelete',          s:yellow,   '',         '')
 call CH('SignifySignAdd',                 s:green,    '',         '')
 call CH('SignifySignChange',              s:murasaki, '',         '')
 call CH('SignifySignDelete',              s:orange,   '',         '')
+
+
 
 
