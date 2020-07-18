@@ -4,20 +4,20 @@ Work in both GUI and Terminal.
 
 ## Screenshot
 
+In terminal:
 ![in terminal:](screenshot/hanabi-term.png)
-Format: ![Alt Text](url)
 
+In MacVim:
 ![in MacVim:](screenshot/hanabi-macvim.png)
-Format: ![Alt Text](url)
 
 ## Usage
 
-1. Clone firefly.vim to `~/.vim/colors/`.
+1. Clone hanabi.vim to `~/.vim/colors/`.
 
 2. add the following line to your .vimrc file. 
 
 ```vim
-colorscheme amino 
+colorscheme hanabi
 ```
 
 ## License
