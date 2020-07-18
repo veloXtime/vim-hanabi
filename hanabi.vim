@@ -15,27 +15,27 @@ let g:colors_name = "hanabi"
 let g:lilac_italics = get(g:, 'lilac_italics', 0)
 
 " Color Palette
-let s:gray1		= [ '#1b202a', 233 ]
-let s:gray2		= [ '#232936', 238 ]
-let s:gray3		= [ '#323c4d', 240 ]
-let s:dbg		= [ '#51617d', 60  ] " dark blue gray
-let s:lbg		= [ '#9aa7bd', 188 ] " light blue gray
-let s:llbg		= [ '#bac2cf', 252 ] " light light blue gray
-let s:cream		= [ '#e6d8b3', 222 ] " cream
-let s:rust		= [ '#a1561c', 130 ]
-let s:pistachio	= [ '#759666', 108 ]
-let s:grass		= [ '#91b382', 108 ]
-let s:olive		= [ '#556B2F', 108 ]
-let s:chestnut	= [ '#91463f', 108 ]
-let s:violet	= [ '#888bba', 104 ] " light violet
-let s:blue		= [ '#5285c4', 110 ]
-let s:iceberg	= [ '#74a8a7', 110 ]
-let s:frost		= [ '#91a5c2', 110 ]
-let s:pink		= [ '#a182b2', 139 ] " '#535486' '#878CB4''#7c6992'
-let s:cyan		= [ '#5da3b2', 109 ] " '#7c6992' '#56adb7'
-let s:yellow	= [ '#b5a262', 179 ] " '#a86f5f'
-let s:lilac		= [ '#a7a2c3', 146 ] " '#3e5824''#b07c83'
-let s:comm		= [ '#51667a', 59  ] " '#566C73' '#6a8e89'
+let s:gray1			= [ '#1b202a', 233 ]
+let s:gray2			= [ '#232936', 238 ]
+let s:gray3			= [ '#323c4d', 240 ]
+let s:dbg			= [ '#51617d', 60  ] " dark blue gray
+let s:lbg			= [ '#9aa7bd', 188 ] " light blue gray
+let s:llbg			= [ '#bac2cf', 252 ] " light light blue gray
+let s:cream			= [ '#e6d8b3', 222 ] " cream
+let s:rust			= [ '#a1561c', 130 ]
+let s:pistachio		= [ '#759666', 108 ]
+let s:grass			= [ '#91b382', 108 ]
+let s:olive			= [ '#556B2F', 108 ]
+let s:chestnut		= [ '#91463f', 108 ]
+let s:violet		= [ '#888bba', 104 ] " light violet
+let s:blue			= [ '#5285c4', 110 ]
+let s:iceberg		= [ '#74a8a7', 110 ]
+let s:frost			= [ '#91a5c2', 110 ]
+let s:pink			= [ '#a182b2', 139 ] " '#535486' '#878CB4''#7c6992'
+let s:cyan			= [ '#5da3b2', 109 ] " '#7c6992' '#56adb7'
+let s:yellow		= [ '#b5a262', 179 ] " '#a86f5f'
+let s:lilac			= [ '#a7a2c3', 146 ] " '#3e5824''#b07c83'
+let s:comm			= [ '#51667a', 59  ] " '#566C73' '#6a8e89'
 
 
 " attr-list:
