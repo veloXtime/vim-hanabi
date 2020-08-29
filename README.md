@@ -9,7 +9,7 @@ In MacVim:
 
 ## Usage
 
-1. Clone hanabi.vim to `~/.vim/colors/`.
+1. copy hanabi.vim to `~/.vim/colors/`.
 
 2. add the following line to your .vimrc file. 
 
