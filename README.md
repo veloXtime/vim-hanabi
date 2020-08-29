@@ -4,9 +4,6 @@ Work in both GUI and Terminal.
 
 ## Screenshot
 
-In terminal:
-![in terminal:](screenshot/hanabi-term.png)
-
 In MacVim:
 ![in MacVim:](screenshot/hanabi-macvim.png)
 
