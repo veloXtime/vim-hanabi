@@ -1,4 +1,4 @@
-# Vim Color Scheme firefly
+# Vim Color Scheme HANABI
 
 Work in both GUI and Terminal.
 
