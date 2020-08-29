@@ -1,4 +1,4 @@
-# Vim Color Scheme HANABI
+# hanabi - vim color scheme
 
 Work in both GUI and Terminal.
 
