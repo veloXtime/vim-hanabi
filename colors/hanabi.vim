@@ -30,7 +30,7 @@ let s:gray6		= [ '#9aa7bd', 188 ]	" light blue gray
 let s:gray7		= [ '#bac2cf', 252 ]	" light light blue gray
 
 let s:beige		= [ '#e6d8b3', 222 ]
-let s:yellow	= [ '#b5a262', 179 ]
+let s:yellow		= [ '#b5a262', 179 ]
 let s:rust		= [ '#a1561c', 130 ]
 let s:chestnut	= [ '#91463f', 108 ]
 
